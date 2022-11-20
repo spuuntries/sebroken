@@ -1,0 +1,12 @@
+colorama==0.4.6
+colored==1.4.4
+Gooey==1.0.8.1
+numpy==1.23.5
+Pillow==9.3.0
+psutil==5.9.4
+pycryptodome==3.15.0
+pygtrie==2.5.0
+rncryptor==3.3.0
+six==1.16.0
+tqdm==4.64.1
+wxPython==4.2.0
