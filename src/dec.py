@@ -2,6 +2,7 @@ import gzip
 import zlib
 import rncryptor
 import plistlib
+import ast
 from tqdm import tqdm
 from hashlib import sha256
 
@@ -12,7 +13,7 @@ class RNCryptor_modified(rncryptor.RNCryptor):
         return data
 
 
-def decrypt_SEB(password, newpassword, in_file):
+def decrypt_SEB(password, newpassword, in_file, misc_patches: str):
     pbar = tqdm(total=100)
 
     pbar.set_description("Setting up...")
@@ -42,6 +43,14 @@ def decrypt_SEB(password, newpassword, in_file):
     pbar.set_description("Applying patches...")
     parsed["hashedAdminPassword"] = sha256(str.encode(newpassword)).hexdigest().upper()
     parsed["hashedQuitPassword"] = sha256(str.encode(newpassword)).hexdigest().upper()
+    if misc_patches:
+        patches = ast.literal_eval("[" + misc_patches + "]")
+        if len(patches) > 0:
+            for p in patches:
+                if type(p) == tuple:
+                    parsed[p[0]] = p[1]
+                else:
+                    print(f"{p} was parsed as a non tuple! Re-check and retry.")
     pbar.set_description("Applied.")
     pbar.update(5)
 

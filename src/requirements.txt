@@ -1,0 +1,5 @@
+auto-py-to-exe
+gooey
+pip-chill
+rncryptor
+tqdm
