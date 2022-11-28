@@ -26,8 +26,9 @@ The `encryption` password is then used as the password that you enter to use the
 
 # **Why?**
 
-<p style="font-size: .1em"><strike>My school</strike> <i>"A-certain-organization-that-I'm-currently-affiliated-with"</i> has announced that the standard that they are going to use for an upcoming <strike>final exams</strike> <i>"a competency examination"</i> is going to be changed from <b>Google Forms</b> to <b>Safe Exam Browser + Google Forms</b>.</p>  
-*Cough* Why not :smile:
+<p style="font-size: xx-small"><strike>My school</strike> <i>"A-certain-organization-that-I'm-currently-affiliated-with"</i> has announced that the standard that they are going to use for an upcoming <strike>final exams</strike> <i>"a competency examination"</i> is going to be changed from <b>Google Forms</b> to <b>Safe Exam Browser + Google Forms</b>.</p>  
+
+*cough* Why not :smile:
 
 ## **Wtf is that icon?**
 
