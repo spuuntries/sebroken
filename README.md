@@ -32,6 +32,8 @@ The `encryption` password is then used as the password that you enter to use the
 
 `SEB + "Mind Broken" = SEBroken`, :pepega:
 
+</br>
+
 # **Running**
 ## **Simplified Instructions:**
 Check out the advanced instructions (for development/linux) [here](#development).
