@@ -26,7 +26,8 @@ The `encryption` password is then used as the password that you enter to use the
 
 # **Why?**
 
-<p style="font-size: .5em"><strike>My school</strike> <i>"A-certain-organization-that-I'm-currently-affiliated-with"</i> has announced that the standard that they are going to use for an upcoming <strike>final exams</strike> <i>"a competency examination"</i> is going to be changed from <b>Google Forms</b> to <b>Safe Exam Browser + Google Forms</b>.</p>
+<p style="font-size: .1em"><strike>My school</strike> <i>"A-certain-organization-that-I'm-currently-affiliated-with"</i> has announced that the standard that they are going to use for an upcoming <strike>final exams</strike> <i>"a competency examination"</i> is going to be changed from <b>Google Forms</b> to <b>Safe Exam Browser + Google Forms</b>.</p>  
+*Cough* Why not :smile:
 
 ## **Wtf is that icon?**
 
@@ -84,14 +85,17 @@ Uh, *"no"*?
 A tool is a tool, how it's used is up to the wielder of the tool, I am not to be blamed if your students use this for malicious purposes.
 2. **Okay, but what if they *do* use it for malicious purposes?**  
 Well, for one, **"where there's a will, there's a way"**, this goes both ways, the proverb never mentions that that will has to be for good, nor bad.  
-If your students are already coming into the exam with malintent, there really isn't much of anything that you can "do" to completely prevent it.  
-<br> 
+If your students are already coming into the exam with malintent, there really isn't much of anything that you can "do" to completely prevent it.
+</br></br> 
 Regardless, there *are* a few ways to "defend" against the use of this tool in your exams:  
+
     1. **Change the how you do your exams**  
     The exams that are "vulnerable" to this are exams that allow the use of, (a) individual devices; (b) manual loading of the SEB file.  
-    To prevent "abuse" of this, all you need to really do is disallow/prevent any of those factors.
+    To prevent "abuse" of this, all you need to really do is disallow/prevent any of those factors.  
+
     2. **Do a checksum check on the config file**  
     This is a slight bit more manual and "overkill" than the other method, but continuous monitoring really is the only "fool-proof" way to prevent abuse of tools like this.  
     Prior to entering SEB, check the hash of `.seb` file and compare it to your sample's, if they don't match then you can be certain that the file has been modified in some way or another.
 
+</br>
 <b style="font-size: 2em">"Where there's a will, there's a way."</b>
