@@ -37,7 +37,7 @@ The `encryption` password is then used as the password that you enter to use the
 # **Running**
 ## **Simplified Instructions:**
 Check out the advanced instructions (for development/linux) [here](#development).
-### **1. Open the `.exe` file from [releases](releases/latest).**
+### **1. Open the `.exe` file from [releases](https://github.com/spuuntries/sebroken/releases/latest).**
 You should now see the following:  
 <img src="src/icons/running_ss.png" style="max-width: 500px; border-radius: 10px;">
 
